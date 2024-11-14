@@ -1,5 +1,3 @@
-
-
 body, html {
     height: 100%;
     margin: 0;
@@ -15,30 +13,29 @@ header {
     z-index: 2;
     color: black;
     display: flex;
-    align-items: flex-start; /*UNTUK TEKS*/
+    align-items: center; /UNTUK TEKS/
     width: 100%;
     height: 90px;
     font-size: medium;
     left: 0;
     top: 0; 
     margin: 0;
-    padding: 10px;
+    padding: 20px 20px;
 }
 
 header ul {
-    flex-direction: column;
+    display: flex;
     list-style-type: none; /* Menghilangkan bullet point pada list */
-    margin-left: 0; /* Memindahkan ul ke kanan */
-    gap: 10px;
-    font-size: 10px;
-    margin-right: 0px;
+    margin-left: auto; /* Memindahkan ul ke kanan */
+    gap: 30px;
+    font-size: 20px;
+    margin-right: 25px;
    
 }
 
 
 header ul li {
     cursor: pointer;
-    padding: 5px;
  
 }
 
@@ -57,14 +54,14 @@ header ul li a {
 }
 
 header img{
-    width:20%;
-    margin-bottom: 10px;
+    width:5%;
+    
  
 }
 
 header h3{
-    margin-left: 0px;
-    font-size: 16px;
+    margin-left: 20px;
+
 }
 
 .active{
@@ -73,6 +70,7 @@ header h3{
     border-radius: 10px;
     text-decoration: underline;
 }
+
 .welcome{
      top: 0%;
      height: 88%; /* Menggunakan viewport height untuk responsivitas */
@@ -179,7 +177,3 @@ footer{
     text-align: center;
     padding: 2px;
 }
-
-
-
-
